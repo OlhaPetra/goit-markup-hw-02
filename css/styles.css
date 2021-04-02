@@ -145,3 +145,26 @@ ul {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
+/*section sorting projects*/
+.projects-sorting-title {
+  display: none;
+}
+
+.projects-sorting-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.projects-sorting-button:hover {
+  color: #ffffff;
+}
+
+/*section projects*/
+.projects-title {
+  display: none;
+}
