@@ -1,0 +1,147 @@
+/*body*/
+body {
+  color: #212121;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+/*list*/
+ul {
+  list-style: none;
+}
+
+/*link*/
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+
+/*header*/
+.nav-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*main for index.html*/
+
+/*section hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero > .button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*section features*/
+.features-title {
+  display: none;
+}
+
+.features-secondary-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*section work*/
+
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work-programming {
+}
+
+.work-development {
+}
+
+.work-design {
+}
+
+/*section team*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*footer*/
+.footer {
+  background-color: #2f303a;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-map {
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-contact {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
