@@ -4,49 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Портфолио</title>
     <link rel="stylesheet" href="./css/styles.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+          rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <a class="logo-link" href="index.html">
-        <img src="./images/logo-header.svg" alt="логотип" width="145" />
+   
+    <header class="header">
+      <a class="logo-link" href="./index.html">
+        <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
       </a>
-      <nav>
-        <ul class="nav">
+      <nav class="nav">
+        <ul>
           <li>
-            <a class="nav-menu link" href="index.html"> Студия </a>
+            <a class="nav link" href="./index.html"> Студия </a>
           </li>
           <li>
-            <a class="nav-menu link" href="./portfolio.html"> Портфоило </a>
+            <a class="nav link current" href="./portfolio.html"> Портфоило </a>
           </li>
           <li>
-            <a class="nav-menu link" href="#"> Контакты </a>
+            <a class="nav link" href="#"> Контакты </a>
           </li>
         </ul>
       </nav>
-      <ul class="header-address">
+      <ul>
         <li>
-          <a class="header-address mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="header-address tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
-      <section class="projects-sorting">
-        <h1 class="projects-sorting-title">сортировка проектов</h1>
-        <ul>
-          <li class="projects-sorting-button"><button type="button">Все</button></li>
-          <li class="projects-sorting-button"><button type="button">Веб-сайты</button></li>
-          <li class="projects-sorting-button"><button type="button">Приложения</button></li>
-          <li class="projects-sorting-button"><button type="button">Дизайн</button></li>
-          <li class="projects-sorting-button"><button type="button">Маркетинг</button></li>
-        </ul>
-      </section>
-      <section >
+      <section class="projects">
         <h1 class="projects-title">реализованные проекты</h1>
+        <ul>
+          <li ><button class="button-filter" type="button">Все</button></li>
+          <li ><button class="button-filter type="button">Веб-сайты</button></li>
+          <li ><button class="button-filter" type="button">Приложения</button></li>
+          <li ><button class="button-filter" type="button">Дизайн</button></li>
+          <li "><button class="button-filter" type="button">Маркетинг</button></li>
+        </ul>
+
         <ul>
           <li>
             <img
@@ -105,14 +107,13 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo-link" href="index.html">
-        <img src="./images/logo-footer.svg" alt="логотип" width="145" />
+      <a class="logo-link" href="index.html">
+        <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
       </a>
       <address>
         <ul>
           <li>
-            <a class="footer-map link" href="https://goo.gl/maps/LU7Z2a2tSQY444G19" target="_blank"
-              rel="noopener norefferre">
+            <a class="footer-map link" href="https://goo.gl/maps/LU7Z2a2tSQY444G19" target="_blank" rel="noopener norefferre">
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
