@@ -11,7 +11,6 @@ body {
   background-color: var(--primary-bcg-color);
   color: var(--primary-title-color);
   font-family: Roboto, sans-serif;
-  font-style: normal;
 }
 li {
   list-style-type: none;
@@ -25,7 +24,7 @@ li {
   letter-spacing: 0.03em;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 /*Header*/
@@ -41,7 +40,6 @@ a {
 .logo-web,
 .logo-studio {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -100,6 +98,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /*section features*/
@@ -140,7 +139,6 @@ a {
 
 .team p {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
@@ -161,18 +159,14 @@ a {
 .footer-map {
   color: #ffffff;
 
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -201,6 +195,7 @@ a {
 .button-filter:hover {
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .projects h2 {
@@ -213,7 +208,6 @@ a {
 .projects p {
   color: var(--primary-text-color);
 
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
